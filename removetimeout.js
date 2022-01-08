@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 module.exports.run = async (client, message, args) => {
 		const fetch = require('node-fetch');
-		const ms = require('ms');
 		const user = message.mentions.users.first();
 
 		if(!user) return message.channel.send('Kullanıcı etiketle!');
