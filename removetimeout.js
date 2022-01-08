@@ -1,5 +1,3 @@
-
-  
 const Discord = require("discord.js");
 module.exports.run = async (client, message, args) => {
 		const fetch = require('node-fetch');
@@ -26,7 +24,7 @@ exports.conf = {
 };
 	exports.help = {
 		name: 'rt',
-		description: 'İstediğiniz şeyi bota yazdırır.',
-		usage: 'yaz [yazdırmak istediğiniz şey]'
+		description: 'zaman aşımını kaldırıyo işte la',
+		usage: 'rt @etiket'
 	  };
   
